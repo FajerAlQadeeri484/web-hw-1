@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First HW</title>
     <style>
-        p {
-            background-color: mediumpurple;
+        p, ul, li, .movies{
+            background-color: rgb(174, 141, 238);
+        }
+        h3{
+            font-weight: bolder;
+            font-style: italic; 
+        }
+        *{
+            background-color: rgb(200, 200, 200);
+            text-align: center;
+        }
+        ul{
+            display: table;
+            margin: 16px auto;
         }
     </style>
 </head>
-
 <body>
-    <div>
         <h1>Hi!</h1>
         <h2>This is my first site</h2>
         <h3>Fajer</h3>
-    </div>
-    
+
     <p>
         My name is Fajer
         <br />
@@ -27,19 +38,20 @@
 
     <!-- 17 feb 2022 -->
 
-    <img 
-    src="./Lost.jpg" 
-    alt="This is a picture of my favorite series"
-    />
-    <br />
-    <a href="https://www.youtube.com/">Click me to open YouTube</a>
+    <div>
+        <img src="./Lost.jpg" alt="This is a picture of my favorite series" width="400"/>
+        <br />
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/KTu8iDynwNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br />
+        <a href="https://www.youtube.com/" target="_blank">Click me to open YouTube</a>
+    </div>
 
-    <ul>
-        <li>movie1</li>
-        <li>movie2</li>
-        <li>movie3</li>
-    </ul>
-    
+    <div class="movies">
+        <ul>
+            <li>Joker</li>
+            <li>I, Tonya</li>
+            <li>Parasite</li>
+        </ul>
+    </div>
 </body>
-
 </html>
